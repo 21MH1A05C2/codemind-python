@@ -1,17 +1,16 @@
-Num = int(input())
-length = len(str(Num))
+Number = int(input())
+length = len(str(Number))
 
-Temp = Num
-S = 0
+Temp = Number
+Sum = 0
 rem = 0
 
 while Temp > 0:
     rem = Temp % 10
-    S = S + (rem**length)
+    Sum = Sum + int(rem**length)
     Temp = Temp // 10
     length = length - 1
-
-if S == Num:
+if Sum == Number:
     print("True")
 else:
     print("False")
