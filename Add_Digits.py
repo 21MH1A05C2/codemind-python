@@ -17,4 +17,3 @@ def sumnum(n):
         sumnum(sum)
 n=int(input())
 sumnum(n)
-    
